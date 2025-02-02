@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calculator projects</title>
+    <link rel="stylesheet" href="images/style.css">
+    <script src="images/script.js" ></script>
+  </head>
+  <body>
+    <div>
+      <div class="div2">
+        <p class="enter-values" id="values">0</p>
+        <p class="resultvalue" id="result_display">0</p>
+      </div>
+      <button onclick="
+        AC();
+      ">AC</button>
+      <button onclick="
+        calculator('%');
+      ">%</button>
+      <button onclick="
+        C();
+      ">C</button>
+      <button onclick="
+        calculator('/');
+      ">/</button>
+      <br>
+      <button onclick="
+        calculator(7);
+      ">7</button>
+      <button onclick="
+        calculator(8);
+      ">8</button>
+      <button onclick="
+        calculator(9);
+      ">9</button>
+      <button onclick="
+        calculator('*');
+      ">X</button>
+      <br>
+      <button onclick="
+        calculator(4);
+      ">4</button>
+      <button onclick="
+        calculator(5);
+      ">5</button>
+      <button onclick="
+        calculator(6);
+      ">6</button>
+      <button onclick="
+        calculator('-');
+      ">-</button>
+      <br>
+      <button onclick="
+        calculator(1);
+      ">1</button>
+      <button onclick="
+        calculator(2);
+      ">2</button>
+      <button onclick="
+        calculator(3);
+      ">3</button>
+      <button onclick="
+        calculator('+');
+      ">+</button>
+      <br>
+      <button onclick="
+        calculator('00');
+      ">00</button>
+      <button onclick="
+        calculator(0);
+      ">0</button>
+      <button onclick="
+        calculator('.');
+      ">.</button>
+      <button onclick="
+        result();
+      ">=</button>
+    </div>
+  </body>
+</html>
